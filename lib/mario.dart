@@ -6,7 +6,7 @@ class MyMario extends StatelessWidget {
   final midrun;
   final size;
 
-  const MyMario({Key key, this.direction, this.midrun, this.size})
+  const MyMario({Key? key, this.direction, this.midrun, this.size})
       : super(key: key);
 
   @override
